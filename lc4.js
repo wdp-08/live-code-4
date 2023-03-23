@@ -5,11 +5,13 @@
 //Tambahkan pengecekan tipe data di function tersebut.
 //Jika data yang diberikan bukan angka yang valid, bukan bertipe data number atau NaN, maka langsungreturn “Invalid Data”.
         
-       function CekAngka (value) {
-        if (typeof value !== 'number') {
-          return 'Invalid Data'
-        }
-      }
-      
-      const resultCheck = CekAngka(5)
-      console.log(resultCheck)
+for(var i=1; i<=20;i++){
+    if(i%2===0){
+      console.log(i ,"adalah bilangan genap")
+    if (typeof value !== 'number') 
+        return 'Invalid Data'
+    }else{
+      console.log(i)
+    
+    }
+  }
