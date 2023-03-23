@@ -10,4 +10,8 @@ function cekAngka(number) {
     }
 }
 
-console.log(cekAngka(1));
+console.log(cekAngka(2));
+console.log(cekAngka(3));
+console.log(cekAngka(20));
+console.log(cekAngka(21));
+console.log(cekAngka("error"));
