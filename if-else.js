@@ -1,13 +1,16 @@
-const angka = 21;
 
 function checkNumber(number){
     if(typeof(number) !== 'number'){
-        return "Invalid Data"
+        return `${number} is Invalid Data`
     }
     if(number % 2 == 0){
-        return "Genap"
+        return `${number} is Genap`
     }else{
-        return "Ganjil"
+        return `${number} is Ganjil`
     }
 }
-console.log(checkNumber(angka))
+console.log(checkNumber(2))
+console.log(checkNumber(3))
+console.log(checkNumber(20))
+console.log(checkNumber(21))
+console.log(checkNumber("Hai"))
