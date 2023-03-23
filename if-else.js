@@ -1,6 +1,6 @@
 
 function checkNumber(number){
-    if(typeof(number) !== 'number'){
+    if(typeof(number) !== 'number' || isNaN(number)){
         return `${number} is Invalid Data`
     }
     if(number % 2 == 0){
@@ -14,3 +14,4 @@ console.log(checkNumber(3))
 console.log(checkNumber(20))
 console.log(checkNumber(21))
 console.log(checkNumber("Hai"))
+console.log(checkNumber(NaN))
