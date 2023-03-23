@@ -1,7 +1,11 @@
-for (var i = 1; i <= 20; i++) {
-  if (i % 2 === 0) {
-    console.log(i, "adalah bilangan genap");
+function checkOddOrEven(value) {
+  if (value % 2 == 0) {
+    notif = "Bilangan " + bilangan + " Adalah Bilangan Genap";
   } else {
-    console.log(i);
+    notif = "Bilangan " + bilangan + " Adalah Bilangan Ganjil";
   }
+
+  return value % 2 === 1 ? "ganjil" : "genap";
 }
+
+console.log(checkOddOrEven);
